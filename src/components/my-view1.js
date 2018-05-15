@@ -12,11 +12,21 @@ import { html }             from '@polymer/lit-element';
 import { SharedStyles }     from './shared-styles.js';
 import { PageViewElement }  from './page-view-element.js';
 
-class MyView1 extends PageViewElement {
+export class MyView1 extends PageViewElement {
+    
+    count {
+        
+    }
+    
   _render(props) {
     return html`
       ${SharedStyles}
+<style>
+h1 {color:pink;}
+</style>
 
+<h1>Hello</h1>
+<p>PEOPLE</p>
     `;
   }
 }

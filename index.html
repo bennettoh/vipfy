@@ -64,6 +64,21 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <meta property="og:site_name"                         content="Vipfy">
     <meta property="og:image"                             content="images/manifest/icon-144x144.png" />
 
+    <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
+    
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCo_sT-vlE0r7W3Cg6tyhVacwaCIvI_GQ4",
+        authDomain: "vipfy-1525885813271.firebaseapp.com",
+        databaseURL: "https://vipfy-1525885813271.firebaseio.com",
+        projectId: "vipfy-1525885813271",
+        storageBucket: "vipfy-1525885813271.appspot.com",
+        messagingSenderId: "485045584788"
+      };
+      firebase.initializeApp(config);
+    </script>
+      
     <script>
       // Load and register pre-caching Service Worker
       if ('serviceWorker' in navigator) {
@@ -105,7 +120,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </noscript>
 
     <!-- CUSTOM HTML ELEMENT -->
-    <my-app appTitle="my app"></my-app>
+    <my-app appTitle="Vipfy"></my-app>
 
     <!-- Load webcomponents-loader.js to check and load any polyfills your browser needs -->
     <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>

@@ -1,0 +1,32 @@
+[debug] [2018-05-15T21:57:33.236Z] ----------------------------------------------------------------------
+[debug] [2018-05-15T21:57:33.240Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bennett\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-05-15T21:57:33.241Z] CLI Version:   3.18.4
+[debug] [2018-05-15T21:57:33.241Z] Platform:      win32
+[debug] [2018-05-15T21:57:33.241Z] Node Version:  v8.9.4
+[debug] [2018-05-15T21:57:33.242Z] Time:          Tue May 15 2018 14:57:33 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-05-15T21:57:33.242Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-15T21:57:33.265Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-15T21:57:33.266Z] > authorizing via signed-in user
+[debug] [2018-05-15T21:57:33.271Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/vipfy-1525885813271  
+  
+ Tue May 15 2018 14:57:33 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-05-15T21:57:33.728Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-15T21:57:33.730Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/vipfy-1525885813271/tokens  
+  
+ Tue May 15 2018 14:57:33 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-05-15T21:57:34.131Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-15T21:57:34.133Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/vipfy-1525885813271  
+  
+ Tue May 15 2018 14:57:34 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-05-15T21:57:34.623Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Bennett\Desktop\vipfy'...
+[info] 
+[debug] [2018-05-15T21:57:34.626Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/485045584788/clients/_:getWebAppConfig  
+  
+ Tue May 15 2018 14:57:34 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-05-15T21:57:34.952Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
